@@ -17,7 +17,7 @@ body {
     max-width: 470px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 90px auto;
+    margin: 10px auto;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -114,7 +114,7 @@ body {
 @media(max-width: 500px) {
 
     .card {
-        margin: auto;
+        height: 100vh;
     }
 
     .weather-icon {
