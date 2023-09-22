@@ -15,7 +15,6 @@ body {
 .card {
     width: 90%;
     max-width: 470px;
-    /* height: 100vh; */
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
     margin: 10px auto;
@@ -113,6 +112,11 @@ body {
 
 /* Responsividade */
 @media(max-width: 500px) {
+
+    .card {
+        margin: auto;
+    }
+
     .weather-icon {
         width: 120px;
         margin-top: 30px;
@@ -131,6 +135,7 @@ body {
 
     .search input {
         width: 80%;
+        font-size: 14px;
     }
 
     .humidity,
